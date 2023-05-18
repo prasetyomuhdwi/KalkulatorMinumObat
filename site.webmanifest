@@ -1,0 +1,41 @@
+{
+    "name": "Kalkulator Jarak Waktu Minum Obat by MDPDEV",
+    "short_name": "Kalkulator Obat",
+    "description": "Program ini adalah sebuah aplikasi sederhana yang memungkinkan pengguna untuk menghitung jarak waktu antara jam minum obat sekarang atau jam yang diinputkan dengan jam minum selanjutnya. Program ini berguna bagi mereka yang perlu mengatur jadwal minum obat secara teratur.",
+    "icons": [
+      {
+        "src": "./public/img/favicon/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./public/img/favicon/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./public/img/favicon/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "./public/img/favicon/favicon.ico",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "./public/img/favicon/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "./public/img/favicon/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1f2937",
+    "theme_color": "#1f2937"
+}
