@@ -4,6 +4,7 @@ function toggleNavbar(collapseID) {
 }
 
 function hitungJarakWaktuMingguan() {
+  'use strict'
   const jamMinumAnda = document.getElementById('jamMinumAnda').value
   const berapakaliMinum = document.getElementById('berapakaliMinum').value
 
@@ -70,8 +71,5 @@ function hitungJarakWaktuMingguan() {
   const containerHasil = document.getElementById('containerHasil')
   containerHasil.classList.remove('hidden')
   const hasilContainer = document.getElementById('hasil')
-  hasilContainer.innerHTML =
-    '<h1 class="my-2 text-3xl">Jam Minum Selanjutnya di: </h1><div class="py-4 flex justify-center flex-col items-center">' +
-    hasil +
-    '</div>'
+  hasilContainer.innerHTML = `<h1 class="my-2 text-3xl">Jam Minum Selanjutnya di: </h1><div class="py-4 flex justify-center flex-col items-center"> ${hasil} </div>`
 }
